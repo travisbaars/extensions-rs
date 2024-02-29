@@ -1,0 +1,10 @@
+name: Deploy to Crates.io
+on:
+  push:
+    tags:
+      - "v*.*.*"
+jobs:
+  publish:
+    uses: travisbaars/actions/rust/deploy-to-crates.yml@main
+    secrets:
+      token: ${{ secrets.CRATES_TOKEN }}
