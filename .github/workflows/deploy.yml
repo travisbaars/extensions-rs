@@ -5,6 +5,6 @@ on:
       - "v*.*.*"
 jobs:
   publish:
-    uses: travisbaars/actions/rust/deploy-to-crates.yml@main
+    uses: travisbaars/actions-rs/.github/workflows/deploy-to-crates.yml@main
     secrets:
       token: ${{ secrets.CRATES_TOKEN }}

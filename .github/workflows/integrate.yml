@@ -8,4 +8,4 @@ env:
   CARGO_TERM_COLOR: always
 jobs:
   build-test:
-    uses: travisbaars/actions/rust/integration.yml@main
+    uses: travisbaars/actions-rs/.github/workflows/integration.yml@main
