@@ -5,3 +5,5 @@
 [![docs.rs](https://img.shields.io/docsrs/extensions-rs)](https://docs.rs/extensions-rs/0.1.0/extensions_rs/)
 
 A collection of file extensions in Rust.
+
+The idea behind this crate is to give a simple way to return file extension types.
