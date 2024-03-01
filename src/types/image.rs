@@ -4,21 +4,13 @@ use enum_iterator::{all, Sequence};
 #[derive(Debug, Copy, Clone, PartialEq, PartialOrd, Hash, Eq, Ord, Sequence)]
 pub enum Image {
   Ext3DM,
-
   Ext3DS,
-
   ExtAI,
-
   ExtBMP,
-
   ExtDDS,
-
   ExtDWG,
-
   ExtDXF,
-
   ExtEPS,
-
   ExtGIF,
   ExtGPX,
   ExtJPG,
