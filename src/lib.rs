@@ -14,7 +14,7 @@
 //!
 //! ```toml
 //! [dependencies]
-//! extensions-rs = "0.2.0"
+//! extensions-rs = "0.2.1"
 //! ```
 //!
 //! Or use `cargo add`:

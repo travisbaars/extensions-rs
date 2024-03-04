@@ -14,7 +14,7 @@ Simply add `extensions-rs` to the dependencies your `Cargo.toml` file:
 
 ```toml
 [dependencies]
-extensions-rs = "0.2.0"
+extensions-rs = "0.2.1"
 ```
 
 Or use the `cargo add` command:
