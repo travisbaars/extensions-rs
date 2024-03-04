@@ -21,8 +21,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Add dev-dependency `tokio-test` to run async code in Rustdocs
+- Add `rustfmt.toml` for consistent formatting
+- Implement `From<Image>` for `Extension`
 
 ### Changed
+
+- Improve documentation
+
+### Fixed
 
 - Fix spacing issue in `types/mod.rs`
 

@@ -61,4 +61,4 @@ assert_eq!(true, Validate::check_str("jpg"))
 - [ ] Improve documentation
 - [ ] Implement `to_str` for `Image`
 - [ ] Add feature to take a whole `path` or `string` and convert it to correct type
-- [ ]
+- [ ] Remove unnecessary `async' funcion/methods. Possibly transition to alternate async options.
