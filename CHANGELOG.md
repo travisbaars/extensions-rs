@@ -18,7 +18,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## '0.2.0' (2024-02-29) [CURRENT]
+### Added
+
+- Add dev-dependency `tokio-test` to run async code in Rustdocs
+
+### Changed
+
+- Fix spacing issue in `types/mod.rs`
+
+## `0.2.0` (2024-02-29) [CURRENT]
 
 ## Changed
 
